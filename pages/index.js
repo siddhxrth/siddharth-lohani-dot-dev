@@ -23,7 +23,7 @@ export default function Home() {
 
       <div className={styles.main}>
       <h1>
-        Hi, I'm 
+        Hi, I&apos;m 
         <Typical
         steps={[' Siddharth Lohani', 2000, ' a student', 2000, ' a developer', 2000]}
         loop={Infinity}
@@ -33,13 +33,13 @@ export default function Home() {
       <p style={{maxWidth: "500px", textAlign: "center", marginTop: 0}}>A high school junior fascinated with all aspects of technology. Fluent in Typescript and Python, I love creating scripts to automate the little things in life! </p>
       <div className="buttons">
       <a className="imageContainer" href={githubLink}> 
-        <Image src={GitHubIcon}></Image>
+        <Image alt="github link" src={GitHubIcon}></Image>
       </a>
       <a className="imageContainer" href={linkedinLink}>
-        <Image src={LinkedInIcon}></Image>
+        <Image alt="linkedin link" src={LinkedInIcon}></Image>
       </a>
       <a className="imageContainer" href={email}>
-        <Image src={EmailSVG}></Image>
+        <Image alt="email" src={EmailSVG}></Image>
       </a>
       </div>
       </div>
