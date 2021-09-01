@@ -3,10 +3,6 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Typical from 'react-typical'
 
-import EmailSVG from '../public/email.svg'
-import GitHubIcon from '../public/github.svg'
-import LinkedInIcon from '../public/linkedin.svg'
-
 export default function Home() {
 
   var githubLink = "https://github.com/siddhxrth"
@@ -33,13 +29,13 @@ export default function Home() {
       <p style={{maxWidth: "500px", textAlign: "center", marginTop: 0}}>A high school junior fascinated with all aspects of technology. Fluent in Typescript and Python, I love creating scripts to automate the little things in life! </p>
       <div className="buttons">
       <a className="imageContainer" href={githubLink}> 
-        <Image alt="github link" src={GitHubIcon}></Image>
+        <img alt="github link" src={require('../public/email.svg')}></img>
       </a>
       <a className="imageContainer" href={linkedinLink}>
-        <Image alt="linkedin link" src={LinkedInIcon}></Image>
+        <img alt="linkedin link" src={require('../public/email.svg')}></img>
       </a>
       <a className="imageContainer" href={email}>
-        <Image alt="email" src={EmailSVG}></Image>
+        <img alt="email" src={require('../public/email.svg')}></img>
       </a>
       </div>
       </div>
