@@ -14,6 +14,7 @@ body {
 
 h1 {
   font-weight: 400;
+  font-size: 48px;
 }
 
 .buttons {
@@ -48,4 +49,22 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 518px) {
+  h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 395px) {
+  h1 {
+    font-size: 24px;
+  }
 }
