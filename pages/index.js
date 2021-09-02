@@ -27,13 +27,13 @@ export default function Home() {
       </h1>
       <p style={{maxWidth: "500px", textAlign: "center", marginTop: 0}}>A high school junior fascinated with all aspects of technology. Fluent in Typescript and Python, I love creating scripts to automate the little things in life! </p>
       <div className="buttons">
-      <a className="imageContainer" href={githubLink} target="_blank"> 
+      <a className="imageContainer" href={githubLink} target="_blank" rel="noreferrer"> 
         <img alt="github link" src='/github.svg'></img>
       </a>
-      <a className="imageContainer" href={linkedinLink} target="_blank">
+      <a className="imageContainer" href={linkedinLink} target="_blank" rel="noreferrer">
         <img alt="linkedin link" src='/linkedin.svg'></img>
       </a>
-      <a className="imageContainer" href={email} target="_blank">
+      <a className="imageContainer" href={email} target="_blank" rel="noreferrer">
         <img alt="email" src='/email.svg'></img>
       </a>
       </div>
