@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 html,
 body {
@@ -6,8 +6,8 @@ body {
   margin: 0;
   /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
-  font-family: 'Poppins', sans-serif;
-  background-color: #293132;
+  font-family: "Poppins", sans-serif;
+  background-color: #1a2021;
   color: white;
   text-align: center;
 }
@@ -23,10 +23,10 @@ h1 {
 }
 
 .imageContainer {
-  margin: 0px 10px;
+  margin: 5px 10px;
   width: 36px;
   height: 36px;
-  background-color: white;
+  background-color: #252d2f;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,12 +35,29 @@ h1 {
   max-height: 36px;
 }
 
+.imageContainer{
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
 img {
   max-width: 100%;
 }
 
-b{
-  color: #FED766;
+.explore {
+  background-color: #252d2f;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  border-radius: 2px;
+  display: none;
+}
+
+.explore{
+  box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+}
+
+b {
+  color: #fed766;
   font-weight: 700;
   margin-bottom: 0;
 }
