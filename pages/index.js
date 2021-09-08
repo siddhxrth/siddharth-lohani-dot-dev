@@ -46,9 +46,9 @@ export default function Home() {
         >
           I’m a high school junior fascinated software development. With familiarity in many different areas (Game Development, Bot Scripting, Computer Vision, and Web Development), I love to try out new technologies in my free time! You can check out my work on my <u><a href={githubLink} style={{"color": "#E0B1CB"}}>Github</a></u>!
         </p>
-        <a className="explore" href="/experience">
+        {/* <a className="explore" href="/experience">
           Learn More ➡️
-        </a>
+        </a> */}
         <div className="buttons">
           <a
             className="imageContainer"
