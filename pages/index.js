@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import Typical from "react-typical";
 
 export default function Home() {
+
   var githubLink = "https://github.com/siddhxrth";
   var linkedinLink = "https://linkedin.com/in/siddharthlohani";
   var email = "mailto:me@siddharthlohani.dev";
@@ -43,7 +44,7 @@ export default function Home() {
             marginBottom: 0,
           }}
         >
-          I’m a high school junior fascinated software development. With familiarity in many different areas (Game Development, Bot Scripting, Computer Vision, and Web Development), I love to try out new technologies in my free time! You can check out my work on my GitHub!
+          I’m a high school junior fascinated software development. With familiarity in many different areas (Game Development, Bot Scripting, Computer Vision, and Web Development), I love to try out new technologies in my free time! You can check out my work on my <u><a href={githubLink} style={{"color": "#E0B1CB"}}>Github</a></u>!
         </p>
         {/* <a className="explore" href="/experience">
           Learn More ➡️

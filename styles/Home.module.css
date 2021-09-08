@@ -15,6 +15,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  animation: fadeUp 1s;
 }
 
 .footer {
@@ -117,5 +118,15 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    margin-top: 100px;
+  }
+
+  to {
+    margin-top: 0px;
   }
 }
