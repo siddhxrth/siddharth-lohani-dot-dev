@@ -57,6 +57,25 @@ img {
   display: none;
 }
 
+.pro {
+  padding: 5px 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #252d2f;
+  margin-top: 5px;
+  color: rgb(124, 147, 158);
+  font-weight: bold;
+  font-size: large;
+}
+
+.pro:hover {
+  cursor: pointer;
+  background-color: #FC7753;
+  color:white;
+}
+
+
+
 .explore{
   box-shadow: 0 8px 25px rgba(0,0,0,0.25);
 }

@@ -4,9 +4,9 @@ import Typical from "react-typical";
 
 export default function Home() {
 
-  var githubLink = "https://github.com/siddhxrth";
-  var linkedinLink = "https://linkedin.com/in/siddharthlohani";
-  var email = "mailto:me@siddharthlohani.dev";
+  const githubLink = "https://github.com/siddhxrth";
+  const linkedinLink = "https://linkedin.com/in/siddharthlohani";
+  const email = "mailto:me@siddharthlohani.dev";
 
   return (
     <div className={styles.container}>
@@ -29,6 +29,8 @@ export default function Home() {
               2000,
               " a problem solver",
               2000,
+              " an engineer",
+              2000,
               " a leader",
               2000,
             ]}
@@ -44,7 +46,10 @@ export default function Home() {
             marginBottom: 0,
           }}
         >
-          I’m a high school junior fascinated software development. With familiarity in many different areas (Game Development, Bot Scripting, Computer Vision, and Web Development), I love to try out new technologies in my free time! You can check out my work on my <u><a href={githubLink} style={{"color": "#E0B1CB"}}>Github</a></u>!
+          I'm an incoming freshman at Georgia Tech, pursuing a major in Computer Engineering.
+          You can check out all of my work on my <u><a href={githubLink} target="_blank" style={{ "color": "#E0B1CB" }}>Github</a></u>!
+
+          <br></br>
         </p>
         {/* <a className="explore" href="/experience">
           Learn More ➡️
@@ -75,6 +80,7 @@ export default function Home() {
             <img alt="email" src="/email.svg"></img>
           </a>
         </div>
+        <button className="pro"> Featured Projects</button>
       </div>
     </div>
   );
