@@ -46,8 +46,8 @@ export default function Home() {
             marginBottom: 0,
           }}
         >
-          I'm an incoming freshman at Georgia Tech, pursuing a major in Computer Engineering.
-          You can check out all of my work on my <u><a href={githubLink} target="_blank" style={{ "color": "#E0B1CB" }}>Github</a></u>!
+          I&aposm an incoming freshman at Georgia Tech, pursuing a major in Computer Engineering.
+          You can check out all of my work on my <u><a href={githubLink} target="_blank" rel="noreferrer" style={{ "color": "#E0B1CB" }}>Github</a></u>!
 
           <br></br>
         </p>
