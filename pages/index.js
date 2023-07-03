@@ -1,12 +1,15 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Typical from "react-typical";
+import Link from "next/link";
 
 export default function Home() {
 
   const githubLink = "https://github.com/siddhxrth";
   const linkedinLink = "https://linkedin.com/in/siddharthlohani";
   const email = "mailto:me@siddharthlohani.dev";
+
+  // console.log(window.location.href)
 
   return (
     <div className={styles.container}>
@@ -80,7 +83,7 @@ export default function Home() {
             <img alt="email" src="/email.svg"></img>
           </a>
         </div>
-        <button className="pro"> Featured Projects</button>
+        <button className="pro"> <Link href="/projects">Featured Projects</Link></button>
       </div>
     </div>
   );
