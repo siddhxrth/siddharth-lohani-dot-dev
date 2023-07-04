@@ -5,11 +5,11 @@ export default function Projects() {
 
 
             <div className="flex-grid-thirds">
-                <button classNameName="col">
+                <button className="col">
                     <h3>Genesis Grade Alerts</h3>
                     <p>A simple Python application which notifies users when their grades are updated in the Genesis Parent Portal via SMS, either through Gmail&apos;s SMTP server or via Twilio&apos;s SMS API.</p>
                 </button>
-                <button classNameName="col">
+                <button className="col">
                     <h3>NJ Covid Alerts</h3>
                     <p>Coronavirus tracker for the state of New Jersey. Built with Selenium, implemented in Python. Seeing that cases keep rising, it&apos;s important to be aware of the new developments in cases, vaccines, and tests.</p>
                 </button>
