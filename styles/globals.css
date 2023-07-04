@@ -95,6 +95,36 @@ a {
   box-sizing: border-box;
 }
 
+.flex-grid-thirds {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-grid-thirds .col {
+  background-color: rgb(124, 147, 158);
+  padding: 20px;
+  margin: 10px;
+  width: 32%;
+  border: none;
+  border-radius: 10px;
+}
+
+.flex-grid-thirds .col:hover {
+  cursor: pointer;
+  background-color: #FC7753;
+  color:white;
+}
+
+@media (max-width: 500px) {
+  .flex-grid,
+  .flex-grid-thirds {
+    display: block;
+    .col {
+      width: 100%;
+      margin: 0 0 20px 0;
+    }
+  }
+}
+
 @media (max-width: 600px) {
   h1 {
     font-size: 40px;
