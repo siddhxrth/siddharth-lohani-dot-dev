@@ -49,7 +49,7 @@ export default function Home() {
             marginBottom: 0,
           }}
         >
-          I&apos;m an incoming freshman at Georgia Tech, pursuing a major in Computer Engineering.
+          I&apos;m an incoming first-year at Georgia Tech, pursuing a major in Computer Science.
           You can check out all of my work on my <u><a href={githubLink} target="_blank" rel="noreferrer" style={{ "color": "#E0B1CB" }}>Github</a></u>!
 
           <br></br>
