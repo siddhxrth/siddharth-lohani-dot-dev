@@ -83,7 +83,7 @@ export default function Home() {
             <img alt="email" src="/email.svg"></img>
           </a>
         </div>
-        <button className="pro"> <Link href="/projects">Featured Projects</Link></button>
+        {/* <Link href="/projects"><button className="pro"> Featured Projects</button></Link> */}
       </div>
     </div>
   );
