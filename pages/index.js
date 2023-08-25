@@ -49,7 +49,7 @@ export default function Home() {
             marginBottom: 0,
           }}
         >
-          I&apos;m a first-year Computer Science major at Georgia Tech.
+          I&apos;m a Computer Science student at Georgia Tech.
           You can check out all of my work on my <u><a href={githubLink} target="_blank" rel="noreferrer" style={{ "color": "#E0B1CB" }}>Github</a></u>!
 
           <br></br>
